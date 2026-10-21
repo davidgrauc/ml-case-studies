@@ -1,0 +1,9 @@
+# Entorno: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+pandas>=2.2
+pyarrow>=17
+numpy>=2.0
+scipy>=1.14
+scikit-learn>=1.5
+matplotlib>=3.9
+jupyterlab>=4.2
+kaggle>=1.6

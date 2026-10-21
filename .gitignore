@@ -1,0 +1,23 @@
+# Datos de Kaggle: se descargan con la API, no van al repo
+datos/*
+!datos/.gitkeep
+*.csv
+*.parquet
+*.zip
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Modelos entrenados
+*.pkl
+*.joblib
+
+# Secretos (kaggle.json va en ~/.kaggle, nunca aquí)
+kaggle.json
+.env
+
+.claude/settings.local.json
+.DS_Store
